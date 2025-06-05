@@ -3,6 +3,11 @@ import { RevealOnScroll } from '../RevealOnScroll';
 export const Blog = () => {
     const blogPosts = [
         {
+            title: "Deepfakes and Synthetic Media: Innovation or Information Apocalypse?",
+            description: "In recent years, deepfakes and synthetic media have become increasingly sophisticated, raising concerns about their potential to spread misinformation and manipulate public opinion. This article explores the implications of these technologies and the legal and ethical challenges they pose.",
+            link: "https://medium.com/@pvminh1502/deepfakes-and-synthetic-media-innovation-or-information-apocalypse-c61a03d6f269",
+        },
+        {
             title: "Open Source Software: Technical Benefits and the Ethics of Collaborative Programming",
             description: "Open source software is a type of software that is developed and maintained by a community of developers who collaborate to improve the code. This article explores the technical benefits of open source software and the ethics of collaborative programming.",
             link: "https://oss-technical-benefits-and-ethics.blogspot.com/2024/12/open-source-software-technical-benefits.html",
@@ -11,7 +16,7 @@ export const Blog = () => {
             title: "The Unreliability of AI Detection Tools",
             description: "AI detection tools are becoming increasingly popular in various industries, but they are not always reliable. This article discusses the limitations of AI detection tools and the potential consequences of relying on them.",
             link: "https://problem-with-ai.blogspot.com/2025/03/the-unreliability-of-ai-detection-tools.html",
-        }
+        },
     ];
 
     return (
