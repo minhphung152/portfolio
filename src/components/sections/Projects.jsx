@@ -50,7 +50,7 @@ export const Projects = () => {
                         </div>
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Book Recommender</h3>
-                            <p className="text-gray-400 mb-4">A semandtic book recommender that uses machine learning and natural language processing to recommend books based on user input. It features a web-based dashboard built with Gradio for an interactive user experience.</p>
+                            <p className="text-gray-400 mb-4">A semantic book recommender that uses machine learning and natural language processing to recommend books based on user input. It features a web-based dashboard built with Gradio for an interactive user experience.</p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Python", "HuggingFace", "Langchain", "Gradio", "Chroma", "Pandas", "numPy"].map((tech, key) => (
                                     <span 
