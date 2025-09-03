@@ -16,6 +16,41 @@ export const Projects = () => {
                     </h2>
                     {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">  */}
                     <div className="flex flex-col gap-6">
+                        {/* Stock price predictor */}
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                            <h3 className="text-xl font-bold mb-2">Stock Price Predictor</h3>
+                            <p className="text-gray-400 mb-4">This project predicts future stock prices using machine learning models like LSTM and XGBoost.</p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                {["Python", "Tensorflow", "Sckikit-learn", "Streamlit"].map((tech, key) => (
+                                    <span 
+                                        key={key}
+                                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                                    >
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a 
+                                    href="https://minhphung152-stock-price-predictor-appstreamlit-app-wn3tje.streamlit.app/" 
+                                    className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                >
+                                    View Project → 
+                                </a>
+
+                                <a 
+                                    href="https://github.com/minhphung152/stock-price-predictor" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="text-gray-400 hover:text-gray-300 transition-colors my-4"
+                                >
+                                    <FaGithub size={24} />
+                                </a>
+                            </div>
+                        </div>
+                        
+                        {/* Fitness Tracker */}
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Fitness Tracker</h3>
                             <p className="text-gray-400 mb-4">A web application for tracking daily weight, food consumption, and calorie goals.</p>
@@ -48,6 +83,8 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
+
+                        {/* Book Recommender */}
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Book Recommender</h3>
                             <p className="text-gray-400 mb-4">A semantic book recommender that uses machine learning and natural language processing to recommend books based on user input. It features a web-based dashboard built with Gradio for an interactive user experience.</p>
@@ -80,6 +117,8 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
+
+                        {/* Tic Tac Toe */}
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Tic Tac Toe</h3>
                             <p className="text-gray-400 mb-4">A full-stack multiplayer Tic Tac Toe game where users can play with friends.</p>
