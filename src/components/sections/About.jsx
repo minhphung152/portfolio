@@ -53,7 +53,86 @@ export const About = () => {
                         </div>
                     </div>
 
+                    {/* Open Source Experience */}
+                    <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">
+                            Open Source Experience
+                        </h3>
+
+                        {/* Zulip */}
+                        <div>
+                            <div className="flex items-center gap-3 mb-2">
+                                <h4 className="font-semibold">Zulip (Oct 2024 - Present)</h4>
+                                <a 
+                                    href="https://github.com/zulip/zulip" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="bg-blue-500/10 text-blue-400 hover:bg-blue-500/20 hover:text-blue-300 px-3 py-1 rounded-md text-sm transition"
+                                >
+                                    View on GitHub
+                                </a>
+                            </div>
+                            <p>
+                                Contributed to the Zulip open-source project, an open-source team chat and collaboration platform with unique topic-based threading designed to
+enhance real-time communication for distributed teams, by implementing new features and fixing bugs. 
+                                Key contributions include:
+                            </p>
+                            <ul className="list-disc list-inside text-gray-300 space-y-2 mt-2">
+                                <li>
+                                    <a 
+                                        href="https://github.com/zulip/zulip/pull/34061" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        className="text-blue-400 hover:text-blue-300 transition"
+                                    >
+                                        (PR #34061)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        href="https://github.com/zulip/zulip/pull/33377" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        className="text-blue-400 hover:text-blue-300 transition"
+                                    >
+                                        (PR #33377)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        href="https://github.com/zulip/zulip/pull/33635" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        className="text-blue-400 hover:text-blue-300 transition"
+                                    >
+                                        (PR #33635)
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* FarmData2 */}
+                        <div className="mt-4">
+                            <div className="flex items-center gap-3 mb-2">
+                                <h4 className="font-semibold">FarmData2 (Sep 2023 - Dec 2023)</h4>
+                                <a 
+                                    href="https://github.com/DickinsonCollege/FarmData2" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="bg-blue-500/10 text-blue-400 hover:bg-blue-500/20 hover:text-blue-300 px-3 py-1 rounded-md text-sm transition"
+                                >
+                                    View on GitHub
+                                </a>
+                            </div>
+                            <p>
+                                Collaborated in a team of 3 developers to contribute to FarmData2, a web application designed to record and report on crop and livestock production for small organic farms.
+                            </p>
+                        </div>
+                    </div>
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+
+                        {/* Education */}
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 Education
@@ -67,51 +146,13 @@ export const About = () => {
                                 </li>
                             </ul>
                         </div>
+
+                        {/* Work Experience */}
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 Work Experience
                             </h3>
                             <div className="space-y-4 text-gray-300">
-                                <div>
-                                    <h4 className="font-semibold">Open Source Contributor at Zulip (2024 - Present)</h4>
-                                    <p>
-                                        Contributed to the Zulip open-source project by implementing new features and fixing bugs. 
-                                        Key contributions include:
-                                    </p>
-                                    <ul className="list-disc list-inside text-gray-300 space-y-2 mt-2">
-                                        <li>
-                                            <a 
-                                                href="https://github.com/zulip/zulip/pull/34061" 
-                                                target="_blank" 
-                                                rel="noopener noreferrer" 
-                                                className="text-blue-400 hover:text-blue-300 transition"
-                                            >
-                                                (PR #34061)
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="https://github.com/zulip/zulip/pull/33377" 
-                                                target="_blank" 
-                                                rel="noopener noreferrer" 
-                                                className="text-blue-400 hover:text-blue-300 transition"
-                                            >
-                                                (PR #33377)
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a 
-                                                href="https://github.com/zulip/zulip/pull/33635" 
-                                                target="_blank" 
-                                                rel="noopener noreferrer" 
-                                                className="text-blue-400 hover:text-blue-300 transition"
-                                            >
-                                                (PR #33635)
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-
                                 <div>
                                     <h4 className="font-semibold">Software Developer Intern at VNPT IT (June 2023 - Aug 2023)</h4>
                                     <p>
@@ -121,6 +162,7 @@ export const About = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </RevealOnScroll>
         </section>
