@@ -100,6 +100,16 @@ enhance real-time communication for distributed teams, by implementing new featu
                                 </li>
                                 <li>
                                     <a 
+                                        href="https://github.com/zulip/zulip/pull/35981" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        className="text-blue-400 hover:text-blue-300 transition"
+                                    >
+                                        (PR #35981)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
                                         href="https://github.com/zulip/zulip/pull/33635" 
                                         target="_blank" 
                                         rel="noopener noreferrer" 
