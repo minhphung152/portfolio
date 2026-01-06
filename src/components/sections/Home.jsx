@@ -12,7 +12,7 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        Hello! I'm Minh Phung, a senior at Dickinson College majoring in Computer Science. 
+                        Hello! I'm Minh Phung, a recent Dickinson College graduate majoring in Computer Science. 
                         I have a passion for technology and software development, and I am constantly 
                         seeking to learn new skills and improve my knowledge in the field.
                     </p>
